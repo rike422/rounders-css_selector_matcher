@@ -17,10 +17,7 @@ module Rounders
   module Handlers
     class YourHandler < Rounders::Handlers::Handler
       # css selector match 
-      on(
-        { css_selector: 'body .header h2'},
-		    :method1
-		  )
+      on({ css_selector: 'body .header h2' }, method1)
 		  
       def method1(mail)
         matches[:css_selector]
