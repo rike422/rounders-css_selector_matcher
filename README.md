@@ -13,7 +13,24 @@ gem 'rounders-css_selector_matcher'
 ## Usage
 
 ```ruby
-
+module Rounders
+  module Handlers
+    class YourHandler < Rounders::Handlers::Handler
+      # css selector match 
+      on(
+        { css_selector: 'body .header h2'},
+		    :method1
+		  )
+		  
+      def method1(mail)
+        matches[:css_selector]
+        # =>[#<Nokogiri::XML::Element:0x3fc6d77f6ccc name="h2" children=[#<Nokogiri::XML::Text:0x3fc6d77f6ad8 " head text ">]>]
+        matches[:css_selector].to_s
+        # => '<h2> head text </h2>'
+      end
+    end
+  end
+end
 ```
 
 ## Contributing
