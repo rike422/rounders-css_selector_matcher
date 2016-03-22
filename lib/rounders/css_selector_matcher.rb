@@ -7,3 +7,5 @@ end
 
 require 'rounders'
 require 'nokogiri'
+
+require 'rounders/css_selector_matcher/css_selector'
