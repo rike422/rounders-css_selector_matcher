@@ -1,4 +1,6 @@
-# Rounders::CssSelectorMatcher
+# Rounders::CssSelectorMatcher [![Build Status](https://travis-ci.org/rike422/rounders-css_selector_matcher.svg?branch=master)](https://travis-ci.org/rike422/rounders-css_selector_matcher) [![Code Climate](https://codeclimate.com/github/rike422/rounders-css_selector_matcher/badges/gpa.svg)](https://codeclimate.com/github/rike422/rounders-css_selector_matcher)[![Coverage Status](https://coveralls.io/repos/github/rike422/rounders-css_selector_matcher/badge.svg?branch=master)](https://coveralls.io/github/rike422/rounders-css_selector_matcher?branch=master)
+
+
 rounders plugin, be able to matches by css selector
 
 ## Installation
