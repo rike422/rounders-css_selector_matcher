@@ -1,5 +1,4 @@
-require "rounders/css_selector_matcher/version"
-
+require 'rounders/css_selector_matcher/version'
 module Rounders
   module CssSelectorMatcher
   end
